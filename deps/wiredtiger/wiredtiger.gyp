@@ -205,6 +205,40 @@
               }
             }
           }
+        ],
+        [
+          "OS != 'win'", {
+            "include_dirs": [
+              "wiredtiger-<(wt_version)/build_win"
+            ],
+            "sources": [
+              "wiredtiger-<(wt_version)/src/os_posix/os_dir.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_dlopen.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_errno.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_exist.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_fallocate.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_filesize.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_flock.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_fsync.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_ftruncate.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_getenv.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_map.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_mtx_cond.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_once.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_open.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_path.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_priv.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_remove.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_rename.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_rw.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_sleep.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_snprintf.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_thread.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_time.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_vsnprintf.c",
+              "wiredtiger-<(wt_version)/src/os_posix/os_yield.c"
+            ]
+          }
         ]
       ]
     }
