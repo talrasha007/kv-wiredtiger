@@ -241,6 +241,24 @@
               "wiredtiger-<(wt_version)/src/os_posix/os_yield.c"
             ]
           }
+        ],
+        [
+          "OS == 'linux'", {
+            "defines": [
+              "HAVE_CLOCK_GETTIME=1",
+              "HAVE_FALLOCATE=1",
+              "HAVE_POSIX_FADVISE=1"
+            ]
+          }
+        ],
+        [
+          "OS == 'mac'", {
+            "xcode_settings": {
+              "WARNING_CFLAGS": [
+                "-Wno-implicit-function-declaration"
+              ]
+            }
+          }
         ]
       ]
     }

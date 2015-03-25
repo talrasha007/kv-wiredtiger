@@ -17,7 +17,7 @@
 /* #undef HAVE_BUILTIN_EXTENSION_ZLIB */
 
 /* Define to 1 if you have the `clock_gettime' function. */
-#define HAVE_CLOCK_GETTIME 1
+// #define HAVE_CLOCK_GETTIME 1
 
 /* Define to 1 for diagnostic tests. */
 /* #undef HAVE_DIAGNOSTIC */
@@ -26,7 +26,7 @@
 #define HAVE_DLFCN_H 1
 
 /* Define to 1 if you have the `fallocate' function. */
-#define HAVE_FALLOCATE 1
+// #define HAVE_FALLOCATE 1
 
 /* Define to 1 if you have the `fcntl' function. */
 #define HAVE_FCNTL 1
@@ -71,7 +71,7 @@
 #define HAVE_MEMORY_H 1
 
 /* Define to 1 if you have the `posix_fadvise' function. */
-#define HAVE_POSIX_FADVISE 1
+// #define HAVE_POSIX_FADVISE 1
 
 /* Define to 1 if you have the `posix_fallocate' function. */
 #define HAVE_POSIX_FALLOCATE 1
