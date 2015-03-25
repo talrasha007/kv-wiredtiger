@@ -8,7 +8,7 @@
         "deps/include"
       ],
       "dependencies": [
-        "<(module_root_dir)/deps/wiredtiger.gyp:wiredtiger"
+        "<(module_root_dir)/deps/wiredtiger/wiredtiger.gyp:wiredtiger"
       ],
       "sources": [
         "src/main.cpp"

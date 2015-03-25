@@ -7,8 +7,11 @@
       "variables": {
         "wt_version": "2.5.2"
       },
+      "dependencies": [
+        "../snappy/snappy.gyp:snappy"
+      ],
       "include_dirs": [
-        "include",
+        "../include",
         "wiredtiger-<(wt_version)/src/include"
       ],
       "defines": [
