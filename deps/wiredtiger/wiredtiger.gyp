@@ -219,7 +219,7 @@
               "wiredtiger-<(wt_version)/src/os_posix/os_fallocate.c",
               "wiredtiger-<(wt_version)/src/os_posix/os_filesize.c",
               "wiredtiger-<(wt_version)/src/os_posix/os_flock.c",
-              "wiredtiger-<(wt_version)/src/os_posix/os_fsync.c",
+              #"wiredtiger-<(wt_version)/src/os_posix/os_fsync.c",
               "wiredtiger-<(wt_version)/src/os_posix/os_ftruncate.c",
               "wiredtiger-<(wt_version)/src/os_posix/os_getenv.c",
               "wiredtiger-<(wt_version)/src/os_posix/os_map.c",
@@ -232,10 +232,8 @@
               "wiredtiger-<(wt_version)/src/os_posix/os_rename.c",
               "wiredtiger-<(wt_version)/src/os_posix/os_rw.c",
               "wiredtiger-<(wt_version)/src/os_posix/os_sleep.c",
-              "wiredtiger-<(wt_version)/src/os_posix/os_snprintf.c",
               "wiredtiger-<(wt_version)/src/os_posix/os_thread.c",
               "wiredtiger-<(wt_version)/src/os_posix/os_time.c",
-              "wiredtiger-<(wt_version)/src/os_posix/os_vsnprintf.c",
               "wiredtiger-<(wt_version)/src/os_posix/os_yield.c"
             ]
           }
