@@ -1,0 +1,11 @@
+{
+  "name": "kv-wiredtiger",
+  "description": "WiredTiger engine for node-kv.",
+  "version": "0.0.1",
+  "repository": "https://github.com/talrasha007/kv-wiredtiger.git",
+  "dependencies": {
+    "kv-common": "~0.0.1",
+    "nan": "~1.7.0"
+  },
+  "license": "MIT"
+}
