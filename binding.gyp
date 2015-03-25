@@ -11,7 +11,7 @@
         "<(module_root_dir)/deps/wiredtiger/wiredtiger.gyp:wiredtiger"
       ],
       "sources": [
-        "src/main.cpp"
+        "src/module.cc"
       ],
       "conditions": [
         [
