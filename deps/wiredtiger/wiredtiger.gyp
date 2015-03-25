@@ -209,7 +209,7 @@
         [
           "OS != 'win'", {
             "include_dirs": [
-              "wiredtiger-<(wt_version)/build_win"
+              "wiredtiger-<(wt_version)/build_posix"
             ],
             "sources": [
               "wiredtiger-<(wt_version)/src/os_posix/os_dir.c",
