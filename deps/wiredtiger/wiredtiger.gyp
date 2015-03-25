@@ -208,6 +208,10 @@
         ],
         [
           "OS != 'win'", {
+            "cflags": [
+              "-Wno-implicit-function-declaration",
+              "-Wno-uninitialized"
+            ],
             "include_dirs": [
               "wiredtiger-<(wt_version)/build_posix"
             ],
