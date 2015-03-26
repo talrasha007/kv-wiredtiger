@@ -4,7 +4,7 @@
       "target_name": "kv-wiredtiger",
 	  "include_dirs" : [
         "<!(node -e \"require('nan')\")",
-        "<!(node -e \"require('kv-common')\")",
+        "<!(node -e \"require('kv-common/include_dir.js')\")",
         "deps/include"
       ],
       "dependencies": [
